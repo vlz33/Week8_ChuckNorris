@@ -21,7 +21,7 @@ namespace ChuckNorris
         private static string GetRandomFromFile(string filename)
 
         {
-            string filePath = $@"C:\Users\Ville\Desktop\KOOL\Programmeerimine\Nädal 8 failid\chuck.txt";
+            string filePath = $@"C:\Users\...\...\...\...\...\chuck.txt";
             string[] dataFromFile = File.ReadAllLines(filePath);
             string randomElement = dataFromFile[GenerateRandomIndex(dataFromFile)];
 
