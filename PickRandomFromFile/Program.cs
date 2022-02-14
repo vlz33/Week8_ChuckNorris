@@ -26,7 +26,7 @@ namespace PickRandomFromFile
         private static string GetRandomFromFile(string filename)
 
         {
-            string filePath = $@"C:\Users\Ville\Desktop\KOOL\Programmeerimine\Nädal 8 failid\{filename}";
+            string filePath = $@"C:\Users\...\...\...\...\...\{filename}";
             string[] dataFromFile = File.ReadAllLines(filePath);
             string randomElement = dataFromFile[GenerateRandomIndex(dataFromFile)];
 
